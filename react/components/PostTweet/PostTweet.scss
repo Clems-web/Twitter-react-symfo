@@ -1,0 +1,45 @@
+.PostTweetContainer {
+  width: 100%;
+  height: fit-content;
+  border: 1px solid #2F3336;
+  padding-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+
+  form {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div {
+
+      width: 90%;
+
+
+      input {
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: #FFFFFF;
+        border: 1px solid #000000;
+      }
+    }
+
+    .PostTweet {
+      width: 30%;
+      margin-top: 2rem;
+      background-color: #5eb5e0;
+      border: 1px solid #000000;
+      font-size: 1.5rem;
+      padding: 1rem;
+      border-radius: 50px;
+    }
+  }
+}

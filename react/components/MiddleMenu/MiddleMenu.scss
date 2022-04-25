@@ -1,0 +1,16 @@
+.MiddleMenuContainer {
+  width: 33%;
+  height: 100vh;
+  overflow-y: scroll;
+  border-left: 1px solid #2F3336;
+  border-right: 1px solid #2F3336;
+  -ms-overflow-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.MiddleMenuContainer::-webkit-scrollbar {
+  display: none;
+}
